@@ -6,6 +6,7 @@ import React from "react";
 
 const Layout = ({ children }: { children: React.ReactNode }) => {
   console.log(process.env.ana);
+  console.log(process.env.MONGODB_URL);
   return (
     <main className="background-light850_dark100 relative">
       <Navbar />
