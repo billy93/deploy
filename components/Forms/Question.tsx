@@ -129,7 +129,7 @@ const Question = ({ mongoUser }: any) => {
               <FormControl className="mt-3.5">
                 <>
                   <Editor
-                    apiKey={process.env.NEXT_PUBLIC_EDITOR_TINY_API_KEY}
+                    apiKey="hp0bhieyh58bfsk0c9wt0s11se151odv6yb2yvpondbn72xj"
                     onInit={(_evt, editor) => {
                       // @ts-ignore
                       editorRef.current = editor;
