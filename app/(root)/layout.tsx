@@ -1,9 +1,11 @@
+"use client";
 import LeftSideBar from "@/components/shared/LeftSideBar";
 import Navbar from "@/components/shared/navbar/Navbar";
 import RightSideBar from "@/components/shared/RightSideBar";
 import React from "react";
 
 const Layout = ({ children }: { children: React.ReactNode }) => {
+  console.log(process.env.ana);
   return (
     <main className="background-light850_dark100 relative">
       <Navbar />
