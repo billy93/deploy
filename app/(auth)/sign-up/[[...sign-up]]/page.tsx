@@ -1,12 +1,10 @@
-import { SignUpButton } from "@clerk/nextjs";
+import { SignUp } from "@clerk/nextjs";
 import React from "react";
 
-const SignUp = () => {
+const SignUpPage = () => {
   return (
-    <div>
-      <SignUpButton />
-    </div>
+      <SignUp />
   );
 };
 
-export default SignUp;
+export default SignUpPage;
